@@ -1,0 +1,29 @@
+.spinner {
+    width: 48px;
+    height: 48px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    /* Vòng mờ */
+    border-top: 5px solid #1d7cbb;
+    /* Vòng hiển thị chính */
+    border-radius: 50%;
+    animation: spin 0.2s linear infinite;
+    margin: 20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

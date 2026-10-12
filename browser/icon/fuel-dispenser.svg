@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <style>
+      .st-black { stroke: #000000; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-orange { fill: #F7931E; }
+      .fill-screen { fill: #F3EFF5; }
+      .fill-blue { fill: #6B88B4; }
+      .fill-yellow { fill: #FFD214; }
+      .fill-red { fill: #EE4343; }
+      .fill-none { fill: none; }
+    </style>
+  </defs>
+
+  <!-- Dây dẫn & Cò bơm xăng -->
+  <!-- Khớp nối màu đỏ bên hông -->
+  <rect x="345" y="290" width="35" height="60" rx="3" class="fill-red st-black" />
+
+  <!-- Dây vòi bơm -->
+  <path d="M 370 325 L 405 325 Q 425 325 425 345 L 425 390 Q 425 420 440 420 Q 455 420 455 390 L 455 210" class="fill-none st-black" />
+
+  <!-- Thân súng bơm (hộp xanh) -->
+  <rect x="435" y="212" width="42" height="54" rx="4" class="fill-blue st-black" />
+
+  <!-- Cần vòi kim loại phía trên -->
+  <path d="M 455 212 L 455 160 L 415 138" class="fill-none st-black" />
+
+  <!-- Thân cây xăng màu cam -->
+  <rect x="80" y="55" width="270" height="370" rx="2" class="fill-orange st-black" />
+
+  <!-- Đế cây xăng màu xanh xám -->
+  <rect x="40" y="425" width="350" height="30" rx="15" class="fill-blue st-black" />
+
+  <!-- Màn hình đồng hồ đo -->
+  <rect x="116" y="92" width="198" height="120" rx="3" class="fill-screen st-black" />
+
+  <!-- Các vạch chia trên đồng hồ -->
+  <line x1="145" y1="172" x2="160" y2="166" class="st-black" />
+  <line x1="165" y1="140" x2="178" y2="149" class="st-black" />
+  <line x1="200" y1="120" x2="204" y2="135" class="st-black" />
+  <line x1="240" y1="120" x2="236" y2="135" class="st-black" />
+  <line x1="275" y1="140" x2="262" y2="149" class="st-black" />
+  <line x1="295" y1="172" x2="280" y2="166" class="st-black" />
+
+  <!-- Tâm bán nguyệt và Kim đồng hồ -->
+  <path d="M 180 202 A 35 35 0 0 1 250 202 Z" class="fill-blue st-black" />
+  <line x1="222" y1="180" x2="230" y2="140" class="st-black" />
+
+  <!-- Biểu tượng Giọt dầu màu vàng -->
+  <path d="M 215 235 C 215 235 160 310 160 355 C 160 388 185 410 215 410 C 245 410 270 388 270 355 C 270 310 215 235 215 235 Z" class="fill-yellow st-black" />
+  
+  <!-- Vệt bóng / Highlight trong giọt dầu -->
+  <path d="M 188 335 C 185 348 188 368 200 373" class="fill-none st-black" stroke-width="11" />
+</svg>
